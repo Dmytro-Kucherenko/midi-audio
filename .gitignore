@@ -1,0 +1,13 @@
+# Editor
+.vscode
+
+# Temporary
+tmp
+
+# Build
+bin
+
+# Environment
+.env
+binds.json
+history.json
