@@ -1,0 +1,40 @@
+{
+  "ports": ["MIDI-DEVICE"],
+  "channels": {
+    "0": {
+      "controls": {
+        "1": {
+          "change": {
+            "action": "volume",
+            "apps": ["app"],
+            "input": false,
+            "output": false,
+            "active": true
+          }
+        }
+      },
+      "notes": {
+        "2": {
+          "start": {
+            "action": "mute",
+            "apps": ["app"],
+            "input": false,
+            "output": false,
+            "active": true
+          },
+          "end": {
+            "action": "toggle"
+          }
+        },
+        "3": {
+          "start": {
+            "action": "next"
+          },
+          "end": {
+            "action": "prev"
+          }
+        }
+      }
+    }
+  }
+}
